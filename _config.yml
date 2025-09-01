@@ -1,0 +1,44 @@
+# Site settings
+title: "I-Pro Solutions - IP Consulting & Business Setup Services"
+description: "Leading IP consulting firm in Mumbai. Trademark Registration, Patent Services, Copyright Protection & Business Setup in India. Free Trademark Audit Available."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Site data
+company:
+  name: "I Pro Solutions"
+  tagline: "PROTECTING INNOVATION, EMPOWERING BUSINESSES"
+  email: "help@iprosolutions.co.in"
+  phone: "+91 93240 90425"
+  address: "102, Ahmed Manor, Mazgaon, Mumbai - 10"
+  
+# Analytics
+google_analytics: "G-B4HT08G5HD"
+microsoft_clarity: "t2eydn7c3u"
+
+# Social links
+social:
+  linkedin: "https://www.linkedin.com/company/i-pro-solutions/"
+  facebook: "https://www.facebook.com/iprosolutionss"
+  whatsapp: "https://wa.me/919324090425"
